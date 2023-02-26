@@ -1,0 +1,13 @@
+.red{
+    background-color: blueviolet;
+    color: bisque;
+    height: 200px;
+}
+.green{
+    background-color: aqua;
+    color: rgb(42, 17, 227);
+}
+*{
+    margin: 0;
+    padding: 0;
+}

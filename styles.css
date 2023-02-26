@@ -1,0 +1,13 @@
+
+#first{
+background-color: red;
+
+}
+.bg-blue{
+    background-color: black;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}

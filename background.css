@@ -1,0 +1,21 @@
+.container{
+    /* background-color: aqua; */
+    border: 3px solid blue;
+    color: white;
+   width: 250px;
+    height: 499px;
+    /* background-image: url('./nirajan.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-position: top center; */
+   /* background-attachment: s croll; */ 
+   background: red url('./nirajan.jpg') no-repeat scroll top right;
+}
+body{
+ 
+    /* height: 344px; */
+}
+*{
+    margin: 0;
+    padding: 0;
+}
