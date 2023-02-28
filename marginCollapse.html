@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin Collapse</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box1{
+            background-color: red;
+            margin: 35px;
+            padding: 25px;
+            font-size: 20px;
+            width: 300px;
+            border: 5px solid black;
+            
+        }
+        .box2{
+            background-color: aqua;
+            margin: 70px 35px 35px 35px;
+            padding: 25px;
+            font-size: 20px;
+            box-sizing: border-box;
+            width: 100%;
+            border: 5px solid blue;
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt hic, minima qui inventore aliquid accusamus dolorum incidunt nostrum, possimus sit consequatur. Itaque ipsum enim quos, placeat quis eaque? Ducimus nostrum, nemo ea dolorum aspernatur, mollitia minus aliquid accusantium tenetur maiores voluptatem aut vel atque pariatur? Vel, dicta obcaecati sit sapiente possimus repellendus iste qui aperiam repellat, quas maiores ad. Eum ullam et numquam recusandae, laudantium, hic ratione sit labore, tenetur quia beatae iste dolores perspiciatis laboriosam iusto asperiores accusantium. Voluptatum nihil nam a, provident hic necessitatibus alias dolores. Aut, voluptate at quod aspernatur id vero a ipsam saepe deleniti tenetur?
+        <div class="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae similique, saepe sed delectus molestias nobis corporis nulla vel eaque odio totam! Error porro eum excepturi libero temporibus quo, animi laboriosam eius. Hic, ipsam velit ut id dolores sed ullam culpa tempore voluptates iusto odio, et fuga unde quis voluptatibus soluta quaerat accusamus voluptatum delectus minima? Ratione nobis accusantium eum reiciendis tenetur quaerat hic culpa ullam asperiores doloribus, iure facilis necessitatibus repudiandae voluptate repellendus esse vero in sunt beatae quasi. Provident quod accusamus enim voluptatibus. Distinctio cum rerum, provident, delectus eligendi illum perferendis ab ipsum quas fugit facilis quibusdam rem soluta?</div>
+    </div>
+
+</body>
+</html>
